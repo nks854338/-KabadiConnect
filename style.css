@@ -1,0 +1,581 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+hr{
+   box-shadow: -2px -2px 2px #666, 2px 2px px #333;  
+   margin: 10vmin 0vmin;  
+}
+
+.bodyGap{
+    padding: 3vmin 8vmin;
+}
+
+.imdexHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imdexHeader .logo{
+    font-size: 6vmin;
+    font-weight: 700;
+    max-width: 50vmin;
+}
+
+header .btns{
+    display: flex;
+    gap: 2vmin;
+}
+
+.btn{
+    height: 6.3vmin;
+    width: 16vmin;
+    font-size: 3vmin;
+    font-weight: 500;
+    background-color: green;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn a{
+  color: #fff;
+
+}
+
+.register{
+    background-color: transparent;
+    box-shadow: gray 0 0 10px;
+}
+
+.register a{
+  color: #111;
+}
+
+/* section1 css start */
+
+.section1{
+    height: 80vmin;
+}
+
+.mainTopbox1, .searchBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainTopboxIntro{
+    font-size: 8vmin;
+    text-align: center;
+    padding: 15vmin;
+}
+
+.sec1img #img1{
+    position: relative;
+    right: 15vmin;
+    height: 10vmin;
+    top: 2vmin;
+}
+
+.sec1img #img2{
+    position: relative;
+    left: 15vmin;
+    height: 10vmin;
+}
+
+.inputBox{
+  display: flex;
+  gap: 1vmin;
+}
+
+.indexsearchinput{
+    height: 6.2vmin;
+    width: 70vmin;
+    font-size: 2.8vmin;
+    border-radius: 10px;
+    border: none;
+    box-shadow: gray 0 0 5px;
+    padding-left: 4vmin;
+}
+
+/* section1 css end */
+
+
+/* regPicker info/ section2 Section css start */
+
+.sec2heading{
+    font-size: 6.5vmin;
+    font-weight: 700;
+    padding-top: 5vmin;
+    padding-bottom: 7vmin;
+}
+
+.companyInfoBox {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .companyInfo1 {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 2vmin;
+  }
+  
+  .companyInfo1 div h3 {
+    font-size: 3.8vmin;
+  }
+  
+  .companyInfo1 div p {
+    font-size: 2.5vmin;
+  }
+  
+  .companyInfoImg {
+    width: 80%;
+    margin: auto;
+    padding: 3vmin;
+  }
+  
+  .companyInfo1 .companyInfoImg img {
+    width: 100%;
+  }
+  
+  .companyInfo1 div {
+    text-align: center;
+  }
+  
+  /* regPicker info/ section2 Section css end */
+  
+  /* section3 css start */
+
+
+  .sec3box .container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .container .box1 {
+    width: 50%;
+  }
+  
+  .box1 .first1 {
+    display: grid;
+    row-gap: 3vmin;
+  }
+  
+  .container .box2 {
+    width: 50%;
+  }
+  
+  .image img {
+    width: 80%;
+  }
+  
+  .first1 h2 {
+    font-size: 5.5vmin;
+    font-weight: 700;
+    padding: 30px 0;
+  }
+  
+  .first1 p {
+    font-size: 2.5vmin;
+  }
+  
+  .first1 button {
+    height: 7vmin;
+    width: 30vmin;
+    font-size: 4vmin;
+    border-radius: 15px;
+    background-color: transparent;
+    box-shadow: gray 0 0 10px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .first1 button a{
+    color: #111;
+  }
+  
+
+  /* section3 css end */
+
+  /* section5 css start */
+  .section_5 {
+    padding: 10px 150px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    padding-bottom: 6vmin;
+}
+
+.sec5_1,
+.sec5_2,
+.sec5_3,
+.sec5_4,
+.sec5_5,
+.sec5_6 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 6vmin;
+    padding: 20px;
+    margin: 1.5vmin;
+    font-size: 3.5vmin;
+    box-shadow:  gray 0 0 5px;
+    border-radius: 10px;
+}
+
+.sec5h2 {
+    font-size: 50px;
+    text-align: center;
+    margin: 3.5vmin;
+}
+
+.para4 {
+    font-size: 3.5vmin;
+    text-align: center;
+    margin: 6vmin;
+}
+  /* section5 css end */
+
+/* home page css start */
+
+
+
+/* service info price section start */
+
+
+/* second section css start */
+
+
+.secSecheading {
+    font-size: 30px;
+    height: 10vmin;
+}
+
+.secSeccard {
+    height: 40vmin;
+    border-radius: 10px;
+    border: 0.5px solid gray;
+}
+
+.secSeccard:hover {
+    box-shadow: 0 0 10px rgba(96, 96, 96, 0.692);
+}
+
+.secSeccard img {
+    height: 80%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.secSeccard .cardpara {
+    height: 10%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+
+/* second section css end */
+
+
+
+/* service info price section end */
+
+/* regPickerProfile page css start */
+
+.profileContainer{
+    display: flex;
+    height: 85vh;
+}
+
+.profileImgBox{
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profileImg{
+    height: 60vmin;
+    width: 50vmin;
+    background-color: #eee;
+    box-shadow: gray 0 0 10px;
+    padding: 3vmin;
+}
+
+.profileImg img{
+    max-width: 100%;
+}
+
+.profileInfoBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profileInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 2vmin;
+    width: 50vw;
+    height: 70vh;
+}
+
+.regPickerName{
+    font-size: 7vmin;
+    font-weight: 700;
+}
+
+.regPickerInfoDescription{
+    font-size: 3vmin;
+}
+
+/* regPickerProfile page css end */
+
+/* home page css end */
+
+
+/* About css start */
+
+.aboutSection{
+    padding: 0 5vmin;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutTopBox{
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutHeading{
+    font-size: 8vmin;
+    padding: 4vmin;
+}
+
+.aboutTopPara{
+    font-size: 3vmin;
+}
+
+.aboutTopImageBox{
+    width: 40vw;
+    height: auto;
+    padding: 3vmin;
+}
+
+.aboutTopImageBox img{
+    width: 100%;
+}
+
+.aboutBox1Heading{
+    padding: 14% 10vmin;
+    font-size: 7vmin;
+    text-align: left;
+}
+
+
+
+.firSecComp2 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.firSecComp2 .firSecBox {
+  margin: 5px;
+  height: 150px;
+  text-align: center;
+}
+
+.firSecBox:hover{
+  border-bottom: solid 1px;
+  transform: scale(1.08);
+}
+
+.images {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  background-color: azure;
+}
+
+.images:hover {
+  box-shadow: 0px 0px 10px rgba(79, 78, 78, 0.779);
+}
+
+.proImg{
+  width: 100%;
+  border-radius: 50%;
+  background-color: beige;
+}
+
+
+/* About css end */
+
+
+/* register & login page css start */
+
+.forgotBox div a{
+    text-decoration: none;
+    color: #eb5e28;
+    font-weight: 600;
+}
+
+.loginFormHeading h2{
+    font-size: 5.5vmin;
+    text-align: center;
+}
+
+.loginFormHeading p{
+    text-align: center;
+}
+
+.loginContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vmin;
+}
+
+
+.registerContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vmin;
+}
+
+.registerform, .loginform {
+    margin-top: 10vmin;
+    width: 30vw;
+    padding: 4vmin;
+    box-shadow: gray 0 0 10px;
+    display: grid;
+    gap: 1vmin;
+    border-radius: 10px;
+}
+
+.loginform {
+    height: 65vh;
+}
+
+.registerform {
+    height: 75vh;
+}
+
+.loginFormInput {
+    width: 100%;
+    display: grid;
+    gap: 2vmin;
+}
+
+.loginInputBox div input , .registerBtn button{
+    border-radius: 10px;
+    border: none;
+    height: 5vmin;
+    width: 100%;
+    box-shadow: gray 0 2px 5px;
+    background-color: #ffffff;
+}
+
+.registerBtn button{
+    margin-top: 2vmin;
+    background-color: #111;
+    color: #fff;
+    height: 5.5vmin;
+    font-size: 3.2vmin;
+}
+
+.registerBtn button:hover{
+    background-color: #fc6a03;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+.forgotBox {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+
+/* register & login page css end */
+
+
+  
+/* footer css start */
+footer {
+    background-color: #213454;
+    color: #fff;
+    padding: 40px 10vmin;
+  }
+  
+  .footIcon {
+    display: flex;
+  }
+  
+  footer .companyInfoBox .companyInfo1 {
+    width: 20%;
+    background-color: #213454;
+    display: grid;
+    justify-content: left;
+    gap: 1.5vmin;
+  }
+  
+  footer .companyInfoBox {
+    display: flex;
+    height: 30vmin;
+    align-items: baseline;
+    justify-content: space-evenly;
+  }
+  
+  .footIcon {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 4vmin;
+  }
+  
+  .footIcon img {
+    max-height: 40px;
+  }
+  
+  .footLink {
+    font-size: 2.8vmin;
+  }
+  
+  .companyInfo1 .impoLink {
+    font-size: 4vmin;
+  }
+  
+  .companyInfo1 .footLogo {
+    font-size: 6.5vmin;
+  }
+  
+  .companyInfo1 h4 {
+    font-size: 3.7vmin;
+  }
+  
+  /* footer css end */
