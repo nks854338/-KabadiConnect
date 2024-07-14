@@ -69,7 +69,7 @@ $conn->close();
 <body>
 <div class="bodyGap">
 <header class="imdexHeader">
-        <div class="logo">RegPicker</div>
+        <div class="logo"> KabadiConnect</div>
         <div class="btns">
           
         </div>

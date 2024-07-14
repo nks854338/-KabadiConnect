@@ -55,7 +55,7 @@ if (isset($_POST['s1'])) {
 <body>
 <div class="bodyGap">
 <header class="imdexHeader">
-        <div class="logo"> RegPicker</div>
+        <div class="logo">  KabadiConnect</div>
         <div class="btns">
           
         </div>
@@ -91,10 +91,10 @@ if (isset($_POST['s1'])) {
                 <button name="submit" class="register">Login</button>
             </div>
             <div class="forgotBox">
-                <div><a href="#">Forgot password?</a></div>
+                <div><a href="#" style="color:rgb(51, 164, 51)">Forgot password?</a></div>
                 <div>
                     Not a member?
-                    <a href="newUser.php">Register Now</a>
+                    <a href="newUser.php" style="color: rgb(56, 155, 56);">Register Now</a>
                 </div>
             </div>
         </form>

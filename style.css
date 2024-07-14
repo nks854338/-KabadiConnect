@@ -83,14 +83,14 @@ header .btns{
 .sec1img #img1{
     position: relative;
     right: 15vmin;
-    height: 10vmin;
+    height: 15vmin;
     top: 2vmin;
 }
 
 .sec1img #img2{
     position: relative;
     left: 15vmin;
-    height: 10vmin;
+    height: 15vmin;
 }
 
 .inputBox{
@@ -181,7 +181,7 @@ header .btns{
   .image img {
     width: 80%;
   }
-  
+
   .first1 h2 {
     font-size: 5.5vmin;
     font-weight: 700;
@@ -250,13 +250,145 @@ header .btns{
 
 /* home page css start */
 
+/* navbar */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 12vmin;
+    background-color: #fff;
+    box-shadow: 0px 5px 10px gray;
+    padding: 0px 3vmin;
+    position: sticky;
+    top: 0;
+    left: 0;
+  }
+  
+  #logo {
+   font-size: 5vmin;
+   font-weight: 800;
+  }
+  
+  .menu {
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu-toggle {
+    display: none;
+  }
+  
+  .menu-icon {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  
+  #menu ul {
+    list-style: none;
+    display: flex;
+    gap: 3vmin;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #menu ul li a {
+    text-decoration: none;
+    color: #213454;
+  }
+  
+  #logo img {
+    height: 8vmin;
+  }
+  
+  .user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 4vmin;
+    padding-right: 2vmin;
+  }
+  
+  .user .icon i {
+    font-size: 4vmin;
+  }
 
+  .user .icon:hover {
+    transform: scale(1.2);
+  }
+
+  
+  a {
+    text-decoration: none;
+    font-size: 3.2vmin;
+    padding: 3.5vmin;
+    color: rgb(12, 12, 12);
+    font-weight: 500;
+  }
+
+
+  /* searchbar */
+
+  .search {
+    margin: 20px;
+    display: inline-flex;
+    align-items: center;
+    box-shadow: gray 0 0 5px;
+    padding: 10px;
+    border-radius: 40px;
+    color: #000;
+  }
+  
+  .search :is(input, button) {
+    color: inherit;
+    border: none;
+    background: transparent;
+    outline: none;
+    font-size: 14px;
+  }
+  
+  .search__input {
+    width: 0;
+    color: #000;
+    transition: width 0.5s;
+  }
+  
+  .search__button {
+    display: grid;
+    place-items: center;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    transition: color 0.25s;
+    color: #000;
+  }
+
+  .search__button:hover {
+    color: #000;
+  }
+  
+  .search:focus-within input {
+    width: 180px;
+  }
+  
+  ::placeholder {
+    font: inherit;
+    color: black;
+  }
+  
+  
 
 /* service info price section start */
 
 
 /* second section css start */
 
+.secSecCards{
+  display: flex;
+    flex-wrap: wrap;
+}
 
 .secSecheading {
     font-size: 30px;
@@ -264,9 +396,12 @@ header .btns{
 }
 
 .secSeccard {
-    height: 40vmin;
+    height: 45vmin;
+    min-width: 35vmin;
     border-radius: 10px;
     border: 0.5px solid gray;
+    margin: 2vmin;
+    overflow: hidden;
 }
 
 .secSeccard:hover {
@@ -279,14 +414,32 @@ header .btns{
     border-top-right-radius: 10px;
 }
 
+.cardinfoboxnameprice{
+  height: 10%;
+  display: grid;
+  align-items: center;
+  padding: 0.5vmin 2vmin;
+}
+
 .secSeccard .cardpara {
-    height: 10%;
-    display: grid;
-    align-items: center;
-    justify-content: center;
     font-size: 20px;
 }
 
+.cardprice{
+  font-size: 15px;
+  font-weight: 400;
+  color: #444;
+}
+
+
+.smallProfile{
+  height: 55vmin;
+  width: 36vmin;
+}
+
+.smallProfile img{
+  height: 78%;
+}
 
 /* second section css end */
 
@@ -302,6 +455,7 @@ header .btns{
 }
 
 .profileImgBox{
+    height: 80vmin;
     width: 50vw;
     display: flex;
     align-items: center;
@@ -309,15 +463,14 @@ header .btns{
 }
 
 .profileImg{
-    height: 60vmin;
-    width: 50vmin;
+    width: 60vmin;
+    height: auto;
     background-color: #eee;
     box-shadow: gray 0 0 10px;
-    padding: 3vmin;
 }
 
 .profileImg img{
-    max-width: 100%;
+    width: 100%;
 }
 
 .profileInfoBox{
@@ -328,6 +481,7 @@ header .btns{
 }
 
 .profileInfo{
+  margin-top: 7vmin;
     display: flex;
     flex-direction: column;
     gap: 2vmin;
@@ -342,6 +496,22 @@ header .btns{
 
 .regPickerInfoDescription{
     font-size: 3vmin;
+}
+
+.regPickerRatingBox{
+  display: flex;
+  align-items: center;
+  font-size: 3vmin;
+  color: #eb5e28;
+}
+
+.profileLocation{
+  font-size: 3.2vmin;
+  font-weight: 600;
+}
+
+.profileAvailability, .profileServices{
+  font-size: 3vmin;
 }
 
 /* regPickerProfile page css end */
@@ -393,44 +563,6 @@ header .btns{
     text-align: left;
 }
 
-
-
-.firSecComp2 {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  margin: auto;
-}
-
-.firSecComp2 .firSecBox {
-  margin: 5px;
-  height: 150px;
-  text-align: center;
-}
-
-.firSecBox:hover{
-  border-bottom: solid 1px;
-  transform: scale(1.08);
-}
-
-.images {
-  height: 120px;
-  width: 120px;
-  border-radius: 50%;
-  background-color: azure;
-}
-
-.images:hover {
-  box-shadow: 0px 0px 10px rgba(79, 78, 78, 0.779);
-}
-
-.proImg{
-  width: 100%;
-  border-radius: 50%;
-  background-color: beige;
-}
-
-
 /* About css end */
 
 
@@ -438,7 +570,7 @@ header .btns{
 
 .forgotBox div a{
     text-decoration: none;
-    color: #eb5e28;
+    color: green;
     font-weight: 600;
 }
 
@@ -508,7 +640,7 @@ header .btns{
 }
 
 .registerBtn button:hover{
-    background-color: #fc6a03;
+    background-color: green;
     color: #fff;
     transform: scale(1.05);
 }
@@ -522,6 +654,9 @@ header .btns{
 }
 
 /* register & login page css end */
+
+
+
 
 
   
@@ -579,3 +714,8 @@ footer {
   }
   
   /* footer css end */
+
+
+  .logo{
+    color: green;
+  }

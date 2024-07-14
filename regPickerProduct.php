@@ -7,7 +7,7 @@ if (isset($_POST['showproduct'])) {
     $conn = new mysqli($servername, $username, $password, $database);
     $product_id = $_POST['product_id'];
 
-    $q = "SELECT * FROM regpickers where sno=$product_id";
+    $q = "SELECT * FROM regpickerproducts where sno=$product_id";
     $result = mysqli_query($conn, $q);
 
     $cnt = mysqli_affected_rows($conn);
@@ -58,11 +58,8 @@ if (isset($_POST['showproduct'])) {
         <div class='profileInfoBox'>
             <div class='profileInfo'>
                <div class='regPickerName'>Name: $x[1]</div>
-               <div class='regPickerInfoDescription'>About: $x[2]</div>
-               <div class='regPickerRatingBox'><img src='images/rating.jpg' height='40px'> $x[7]</div>
-               <div class='profileLocation'>Location: $x[3]</div>
-               <div class='profileAvailability'>Availability: $x[6]</div>
-               <div class='profileServices'>Services Offered: $x[5]</div>
+               <div class='regPickerInfoDescription'>$x[2]</div>
+               <div class='profileLocation'>$x[3]</div>
             </div>
         </div>";
                     }
